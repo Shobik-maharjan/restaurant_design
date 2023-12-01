@@ -1,0 +1,199 @@
+/* 
+Author: Shobik Maharjan;
+Theme: Restaurant Food Order;
+Version: 1.0;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #ba4f4f;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #ff6179;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #fd3737;
+}
+
+h2 {
+  color: #151313;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.img-curve {
+  border-radius: 15px;
+}
+
+/* CSS for navbar section */
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  width: 10%;
+  /* border: 1px solid black; */
+}
+
+.menu {
+  width: 25%;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+}
+.menu ul li {
+  padding: 4%;
+  font-weight: bold;
+}
+
+/* CSS For Food Search Section */
+.food-search {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6% 0;
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS For Categories */
+.category-center {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  /* border: 1px solid black; */
+  width: 33%;
+  margin: 3%;
+}
+
+.text {
+  margin-top: -70px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* CSS For Food Menu */
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+
+.explore-food-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.food-menu-box {
+  /* border: 1px solid black; */
+  padding: 2%;
+  margin: 1%;
+  width: 43%;
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+}
+
+.food-menu-img {
+  width: 20%;
+}
+
+.food-menu-desc {
+  width: 70%;
+  margin-left: 8%;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.food-detail {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+/* CSS For Social */
+.social ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.social ul li {
+  padding: 1%;
+}
+
+/* CDD For Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    margin: 1% auto;
+  }
+  .nav-center {
+    display: grid;
+    justify-content: center;
+  }
+}
