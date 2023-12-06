@@ -68,14 +68,15 @@ h3 {
 
 /* CSS for navbar section */
 .nav-center {
-  display: flex;
+  display: grid;
+  grid-template-columns: 3fr auto;
   justify-content: space-between;
   text-align: center;
   align-items: center;
 }
 
 .logo {
-  width: 10%;
+  width: 30%;
   /* border: 1px solid black; */
 }
 
@@ -88,7 +89,7 @@ h3 {
   display: flex;
 }
 .menu ul li {
-  padding: 4%;
+  padding: 10px;
   font-weight: bold;
 }
 
@@ -189,11 +190,11 @@ h3 {
 
 @media only screen and (max-width: 768px) {
   .logo {
-    width: 80%;
+    width: 60%;
     margin: 1% auto;
   }
   .nav-center {
-    display: grid;
+    grid-template-columns: 0fr;
     justify-content: center;
   }
 }
